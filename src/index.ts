@@ -14,7 +14,7 @@ const app = express()
 const prisma = new PrismaClient()
 
 app.use(cors({
-  origin: 'https://food-ecommerce.vercel.app', // A URL do seu frontend
+  origin: 'https://food-ecommecer-fpkobiaq8-rayssavicentes-projects.vercel.app/', // A URL do seu frontend
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true,
 }));
