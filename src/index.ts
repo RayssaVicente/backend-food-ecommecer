@@ -16,7 +16,7 @@ const prisma = new PrismaClient()
 app.use(cors({
   origin: [
     'https://food-ecommecer.vercel.app', 
-    'https://food-ecommecer-fpkobiaq8-rayssavicentes-projects.vercel.app'
+    'https://food-ecommecer-akyf5td4k-rayssavicentes-projects.vercel.app/'
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true,
